@@ -1,6 +1,7 @@
 # Controller Design for Autonomous Boats
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=mathworks-robotics/controller-for-autonomous-boats&project=https://github.com/mathworks-robotics/controller-for-autonomous-boats/blob/main/WAMV_Control.prj)
 
-This repository contains the model associated with the blog "Controller Design for WAM-V" on MathWorks® Student Lounge. This also serves as a starter code for the MathWorks Simulation Award at RobotX 2024. The model uses MATLAB® 2024a and Simulink® for the controller design and interfaces with [VRX simulation](https://github.com/osrf/vrx) environment, developed by Open Source Robotics Foundation (OSRF) and the Naval Postgraduate School.
+This repository contains the model associated with the blog [Controller Design for WAM-V](https://blogs.mathworks.com/student-lounge/2024/09/12/controller-design-for-a-wave-adaptive-modular-vessel-in-simulink/) on MathWorks® Student Lounge. This also serves as a starter code for the MathWorks Simulation Award at RobotX 2024. The model uses MATLAB® 2024a and Simulink® for the controller design and interfaces with [VRX simulation](https://github.com/osrf/vrx) environment, developed by Open Source Robotics Foundation (OSRF) and the Naval Postgraduate School.
 
 
 
@@ -9,7 +10,7 @@ This repository contains the model associated with the blog "Controller Design f
 
 ## Getting started
 
-To get started,  install the VRX Simulator as described [in this tutorial](https://github.com/osrf/vrx/wiki/getting_started_tutorial) and clone this repository. Start the simulation and ensure the ROS topics published by the simulator is visible to MATLAB and then open the WAMV_control.prj which should open the model shown below. Run the Simulink model to publish the thrust commands to the simulator for follwoing the reference path/goal. More details can be found in the blog linked above.
+To get started,  install the VRX Simulator as described [in this tutorial](https://github.com/osrf/vrx/wiki/getting_started_tutorial) and clone this repository. Start the simulation and ensure the ROS topics published by the simulator is visible to MATLAB and then open the WAMV_control.prj which should open the model shown below. Run the Simulink model to publish the thrust commands to the simulator for following the reference path/goal. More details can be found in the blog linked above.
 
 ![Simulink model](images/model_pic.png)
 
